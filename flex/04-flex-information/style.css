@@ -31,13 +31,13 @@ img {
 .plant-container{
   display: flex;
   justify-content: center;
+  gap: 52px;
 }
 
 .plant-text{
   display: flex;
   justify-content: center;
-  width: 200px;
+  max-width: 200px;
   flex-wrap: wrap;
-  margin-inline: 52px;
   text-align: center
 }
