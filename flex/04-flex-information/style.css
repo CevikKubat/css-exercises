@@ -36,7 +36,6 @@ img {
 .plant-text{
   display: flex;
   justify-content: center;
-  border: solid;
   width: 200px;
   flex-wrap: wrap;
   margin-inline: 52px;
