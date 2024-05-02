@@ -16,6 +16,7 @@ body {
 }
 
 .modal {
+  display: flex;
   background: white;
   width: 480px;
   border-radius: 10px;
@@ -66,4 +67,11 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.question-bar{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  text-align: left;
 }
