@@ -69,9 +69,28 @@ button.cancel {
   color: royalblue;
 }
 
-.question-bar{
+.left-side{
+  margin: 15px;
+}
+
+.header-bar{
   display: flex;
-  justify-content: center;
-  margin: 20px;
-  text-align: left;
+  justify-content: flex-start;
+  margin-block: 20px;
+  font-weight: bold;
+  border: solid;
+}
+
+.header{
+  align-self: flex-end;
+}
+
+.close-button{
+  align-self: flex-end;
+  margin-left: 90px;
+}
+
+.action-buttons{
+  display: flex;
+
 }
