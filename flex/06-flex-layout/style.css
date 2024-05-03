@@ -29,14 +29,30 @@ input {
 }
 
 .header{
-  flex-grow: 1;
+  display: flex;
+  border: solid red;
 }
 
 .content{
-  flex-grow: 50;
-  border: solid;;
+  flex-grow: 1;
+  border: solid;
 }
 
 .footer{
-  flex-grow: 1;
+  display: flex;
+  border: solid red;
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+  color:grey;
+  font-size: small;
 }
