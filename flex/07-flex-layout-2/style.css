@@ -4,10 +4,24 @@ body {
   min-height: 100vh;
 }
 
+.holy-grail{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .header {
+  display: flex;
+  align-items: center;
   height: 72px;
   background: darkmagenta;
   color: white;
+}
+
+.title{
+  margin-left: 16px;
+  font-weight: 900;
+  font-size: 32px;
 }
 
 .footer {
@@ -23,7 +37,19 @@ body {
 }
 
 .card {
+  display: flex;
+  flex-basis: 10px;
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+}
+
+.content{
+  display: flex;
+  flex: 1;
+}
+
+.main-content{
+  display: flex;
+  flex-wrap: wrap;
 }
